@@ -7,6 +7,8 @@
  "engine": "InnoDB",
  "field_order": [
   "status",
+  "column_break_zfxu",
+  "date",
   "section_break_ttoj",
   "raison_sociale",
   "produit",
@@ -68,11 +70,22 @@
    "fieldname": "message",
    "fieldtype": "Long Text",
    "label": "Message"
+  },
+  {
+   "fieldname": "column_break_zfxu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Now",
+   "fieldname": "date",
+   "fieldtype": "Datetime",
+   "label": "Date",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-22 21:06:14.080558",
+ "modified": "2024-09-22 21:20:15.549226",
  "modified_by": "Administrator",
  "module": "IntraPro",
  "name": "Formulaire Contact Web",
