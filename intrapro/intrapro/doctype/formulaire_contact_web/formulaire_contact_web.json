@@ -68,7 +68,7 @@
   },
   {
    "fieldname": "message",
-   "fieldtype": "Long Text",
+   "fieldtype": "Text Editor",
    "label": "Message"
   },
   {
@@ -85,7 +85,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-22 21:20:15.549226",
+ "modified": "2024-09-22 21:42:34.820812",
  "modified_by": "Administrator",
  "module": "IntraPro",
  "name": "Formulaire Contact Web",
