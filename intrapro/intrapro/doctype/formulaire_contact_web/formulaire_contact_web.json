@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CW-{MM}-{YY}-{####}",
+ "creation": "2024-09-22 21:00:47.048760",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "section_break_ttoj",
+  "raison_sociale",
+  "produit",
+  "column_break_vlim",
+  "email",
+  "phone",
+  "section_break_eimh",
+  "message"
+ ],
+ "fields": [
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Statut",
+   "options": "Nouveau\nTrait\u00e9"
+  },
+  {
+   "fieldname": "section_break_ttoj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "raison_sociale",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Raison Sociale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "produit",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Produit",
+   "options": "\nIntraPro CRM\nIntraPro ERP\nIntraPro Insights\nAutre",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vlim",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "T\u00e9l\u00e9phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "section_break_eimh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Long Text",
+   "label": "Message"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-22 21:06:14.080558",
+ "modified_by": "Administrator",
+ "module": "IntraPro",
+ "name": "Formulaire Contact Web",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "if_owner": 1,
+   "read": 1,
+   "role": "Guest",
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Blue",
+   "title": "Nouveau"
+  },
+  {
+   "color": "Green",
+   "title": "Trait\u00e9"
+  }
+ ],
+ "title_field": "raison_sociale",
+ "track_seen": 1
+}

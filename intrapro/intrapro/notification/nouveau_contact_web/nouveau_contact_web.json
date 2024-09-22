@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-09-22 21:07:32.251253",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Formulaire Contact Web",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here",
+ "message_type": "Markdown",
+ "modified": "2024-09-22 21:07:42.192452",
+ "modified_by": "Administrator",
+ "module": "IntraPro",
+ "name": "Nouveau Contact Web",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Contact",
+ "sender_email": "contact@intrapro.net",
+ "subject": "Nouveau Contact Web {{ doc.name }}"
+}
